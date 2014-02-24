@@ -1,33 +1,27 @@
-package org.util.rtc.converter;
+package com.springapp.mvc;
 
-import org.util.rtc.entity.IUser;
-import org.util.rtc.entity.User;
 
-import java.lang.reflect.Field;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.IOException;
+import java.io.StringWriter;
+import java.io.Writer;
 
-public class converter {
-    public void setClass(Class className){
-        System.out.println(className);
+
+public class Converter     {
+
+
+
+
+
+    public static void toJSON(User user) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        Writer strWriter = new StringWriter();
+        mapper.writeValue(strWriter, user);
+        String userDataJSON = strWriter.toString();
+        System.out.println(userDataJSON);
+
     }
 
-    public static void set(Class<? extends IUser> o) {
+  
 
-        for(Field field : o.getFields()){
-            System.out.println(field.getDeclaredAnnotations());
-            System.out.println(field);
-        }
-        // String resolt="{\n";
-        //   resolt=resolt+"\"Name\": \""+o.getName()+"\", \n";
-        //  resolt=resolt+"\"family\": \""+o.getFamily() + "\", \n";
-        // resolt=resolt+"\"family\": "+o.getAge() + ", \n";
-        // resolt=resolt+"\"family\": "+o.getTag() + "\n}";
-
-        //      return resolt;
-    }
-
-    public static void main(String[] args) {
-        converter convec = new converter();
-        convec.setClass(convec.getClass());
-        convec.set(User.class);
-    }
 }
