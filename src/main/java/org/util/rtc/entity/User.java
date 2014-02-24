@@ -7,6 +7,7 @@ public class User implements IUser {
     @minlength(5)
     public String name;
     @min(10)
+    @maxlength(20)
     public int age;
     @Override
     public String getName() {
