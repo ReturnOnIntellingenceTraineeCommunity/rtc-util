@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="Del converter">
-      <change type="DELETED" beforePath="C:\Users\Dell\IdeaProjects\rtc-util\src\main\java\org\util\rtc\converter\converter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java" />
+    <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="Del converter&#10;">
+      <change type="DELETED" beforePath="C:\Users\Dell\IdeaProjects\rtc-util\src\main\java\org\util\rtc\converter\ConverterTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rtc-app.iws" />
@@ -68,19 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConverterTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="222" selection-end="222" vertical-scroll-proportion="0.31850117" vertical-offset="0" max-vertical-offset="427">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
+            <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.32552692" vertical-offset="269" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -310,36 +300,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtc-util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtc-util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="converter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -727,7 +687,7 @@
       <workItem from="1393265835793" duration="743000" />
       <workItem from="1393273904604" duration="2639000" />
       <workItem from="1393350092638" duration="3506000" />
-      <workItem from="1393359994915" duration="370000" />
+      <workItem from="1393359994915" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary=".idea">
       <created>1392914694541</created>
@@ -785,18 +745,22 @@
       <created>1393360177820</created>
       <updated>1393360177820</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Del converter">
+      <created>1393360370165</created>
+      <updated>1393360370165</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14639000" />
+    <option name="totallyTimeSpent" value="15273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -816,7 +780,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -861,7 +825,8 @@
     <MESSAGE value="Renamed" />
     <MESSAGE value="Rename Creditcard" />
     <MESSAGE value="Renamed converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed converter" />
+    <MESSAGE value="Del converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Del converter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -871,13 +836,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
@@ -932,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
+        <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.32552692" vertical-offset="269" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
@@ -954,13 +912,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="427">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="222" selection-end="222" vertical-scroll-proportion="0.31850117" vertical-offset="0" max-vertical-offset="427">
           <folding />
         </state>
       </provider>
