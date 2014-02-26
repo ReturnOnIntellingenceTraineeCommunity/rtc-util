@@ -7,6 +7,8 @@ import  org.util.rtc.annotation.range;
 import  org.util.rtc.annotation.rangelength;
 import org.util.rtc.entity.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.util.rtc.entity.User;
+
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;

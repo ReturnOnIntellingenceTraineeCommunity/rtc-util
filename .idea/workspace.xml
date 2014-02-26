@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/util/rtc/context/ContextTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/util/rtc/context/ContextTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/IUser.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/IUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/digits.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/digits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/email.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/email.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/maxlength.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/maxlength.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/minlength.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/minlength.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/number.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/number.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/range.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/range.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/rangelength.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/rangelength.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/required.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/required.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rtc-util.iml" afterPath="$PROJECT_DIR$/rtc-util.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/rtc_app_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/rtc_app_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/rtc_app_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/rtc_app_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/rtc_util_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/rtc_util_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/url.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/url.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rtc-app.iws" />
@@ -102,19 +67,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Converter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="572" selection-end="572" vertical-scroll-proportion="-2.0825" vertical-offset="1122" max-vertical-offset="1598">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2035#2048#0" expanded="true" />
-                <element signature="e#2364#2380#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -181,7 +133,7 @@
       <file leaf-file-name="url.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/url.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -190,8 +142,19 @@
       <file leaf-file-name="max.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="34" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="221">
+            <state line="2" column="0" selection-start="34" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Converter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="606" selection-end="606" vertical-scroll-proportion="-0.7777778" vertical-offset="680" max-vertical-offset="1632">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -270,8 +233,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -320,6 +283,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -500,8 +465,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -922,6 +885,7 @@
       <workItem from="1393439749108" duration="684000" />
       <workItem from="1393444747489" duration="1103000" />
       <workItem from="1393447407000" duration="226000" />
+      <workItem from="1393447960409" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary=".idea">
       <created>1392914694541</created>
@@ -1003,14 +967,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25513000" />
+    <option name="totallyTimeSpent" value="26148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25375625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-22" y="448" width="1304" height="223" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25368732" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-22" y="448" width="1304" height="223" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1029,7 +993,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1040,7 +1004,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -1087,13 +1051,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
@@ -1152,18 +1109,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/context/ContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="17" column="32" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java">
@@ -1243,9 +1194,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml">
@@ -1274,9 +1223,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="4" column="19" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1296,6 +1243,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="427" />
@@ -1308,9 +1262,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Map.java">
@@ -1322,18 +1274,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/context/ContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="17" column="32" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.14196242" vertical-offset="0" max-vertical-offset="479">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.14196242" vertical-offset="0" max-vertical-offset="479" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java">
@@ -1429,11 +1375,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="572" selection-end="572" vertical-scroll-proportion="-2.0825" vertical-offset="1122" max-vertical-offset="1598">
+        <state line="19" column="13" selection-start="606" selection-end="606" vertical-scroll-proportion="-0.7777778" vertical-offset="680" max-vertical-offset="1632">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2035#2048#0" expanded="true" />
-            <element signature="e#2364#2380#0" expanded="true" />
           </folding>
         </state>
       </provider>
