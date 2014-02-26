@@ -5,6 +5,7 @@ import  org.util.rtc.annotation.min;
 import  org.util.rtc.annotation.minlength;
 import  org.util.rtc.annotation.range;
 import  org.util.rtc.annotation.rangelength;
+import org.util.rtc.entity.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.io.StringWriter;
@@ -29,7 +30,7 @@ public class Converter     {
         }
         if(annotation instanceof maxlength){
             maxlength g = field.getAnnotation(maxlength.class);
-            s= Integer.valueOf(g.lenght()).toString();
+            s= Integer.valueOf(g.value()).toString();
         }
         if(annotation instanceof minlength){
             minlength g = field.getAnnotation(minlength.class);
@@ -37,11 +38,11 @@ public class Converter     {
         }
         if(annotation instanceof range){
             range g = field.getAnnotation(range.class);
-            s= Integer.valueOf(g.range().toString()).toString();
+            s= Integer.valueOf(g.value().toString()).toString();
         }
         if(annotation instanceof rangelength){
             rangelength g = field.getAnnotation(rangelength.class);
-            s= Integer.valueOf(g.range().toString()).toString();
+            s= Integer.valueOf(g.value().toString()).toString();
         }
         if (s=="") {s="true";}
         return s;
