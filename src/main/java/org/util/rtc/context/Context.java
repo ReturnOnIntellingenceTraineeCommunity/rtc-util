@@ -5,13 +5,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Context {
-    private Map<String, String> map = new HashMap<String, String>();
+    private Map<Class, String> map = new HashMap<Class, String>();
 
-    public void add(String key, String value){
+    public void add(Class key, String value){
         map.put(key, value);
     }
 
-    public String get(String key){
+    public String get(Class key){
         return map.get(key);
     }
 }
