@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java" />
+    <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="Create Context&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rtc-app.iws" />
@@ -67,19 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Context.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.676815" vertical-offset="0" max-vertical-offset="427">
+            <state line="12" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.50246304" vertical-offset="0" max-vertical-offset="406">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#153#169#0" expanded="true" />
@@ -88,28 +78,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="max.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java">
+      <file leaf-file-name="dateISO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
+            <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creditcard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java">
+      <file leaf-file-name="min.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+            <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="date.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
+      <file leaf-file-name="maxlength.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/maxlength.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="3" column="18" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minlength.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/minlength.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="18" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="number.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/number.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="range.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/range.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="36" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remote.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -160,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/number.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/range.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/rangelength.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/required.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/url.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/email.java" />
@@ -168,7 +202,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/converter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/Creditcard.java" />
@@ -183,6 +216,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java" />
       </list>
     </option>
   </component>
@@ -246,6 +281,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,6 +351,10 @@
               <option name="myItemId" value="rtc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -379,7 +419,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -730,7 +769,8 @@
       <workItem from="1393265835793" duration="743000" />
       <workItem from="1393273904604" duration="2639000" />
       <workItem from="1393350092638" duration="3506000" />
-      <workItem from="1393359994915" duration="2053000" />
+      <workItem from="1393359994915" duration="2673000" />
+      <workItem from="1393426668875" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary=".idea">
       <created>1392914694541</created>
@@ -796,18 +836,22 @@
       <created>1393361010192</created>
       <updated>1393361010192</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create Context">
+      <created>1393362068046</created>
+      <updated>1393362068046</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16322000" />
+    <option name="totallyTimeSpent" value="18228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -820,7 +864,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -833,6 +876,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -849,7 +893,6 @@
       <TodoPanelSettings />
     </option>
     <confirmMoveToFailedCommit value="1" />
-    <MESSAGE value=".idea" />
     <MESSAGE value="Add annotations, Converter, User, IUser" />
     <MESSAGE value=".idea&#10;" />
     <MESSAGE value="Change annotations" />
@@ -874,7 +917,8 @@
     <MESSAGE value="Renamed converter" />
     <MESSAGE value="Del converter" />
     <MESSAGE value="Del test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Del test" />
+    <MESSAGE value="Create Context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Context" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -884,6 +928,51 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#153#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
@@ -929,30 +1018,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
@@ -964,9 +1032,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/maxlength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="18" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/minlength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.676815" vertical-offset="0" max-vertical-offset="427">
+        <state line="12" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.50246304" vertical-offset="0" max-vertical-offset="406">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#153#169#0" expanded="true" />
