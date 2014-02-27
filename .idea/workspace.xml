@@ -1001,7 +1001,7 @@
       <workItem from="1393439749108" duration="684000" />
       <workItem from="1393444747489" duration="1103000" />
       <workItem from="1393447407000" duration="226000" />
-      <workItem from="1393447960409" duration="2213000" />
+      <workItem from="1393447960409" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary=".idea">
       <created>1392914694541</created>
@@ -1087,11 +1087,15 @@
       <created>1393506609331</created>
       <updated>1393506609331</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Finish annotations">
+      <created>1393506994033</created>
+      <updated>1393506994033</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27726000" />
+    <option name="totallyTimeSpent" value="27761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -1140,7 +1144,6 @@
       <TodoPanelSettings />
     </option>
     <confirmMoveToFailedCommit value="1" />
-    <MESSAGE value="Add @max to User" />
     <MESSAGE value="Add @maxlenght to User" />
     <MESSAGE value="Converter renamed from converter" />
     <MESSAGE value="Add @maxlenght to User&#10;" />
@@ -1165,7 +1168,8 @@
     <MESSAGE value="Change Context and add ContextTest" />
     <MESSAGE value="Add import" />
     <MESSAGE value="Add convertTest change Converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add convertTest change Converter" />
+    <MESSAGE value="Finish annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
