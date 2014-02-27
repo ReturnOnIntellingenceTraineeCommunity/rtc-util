@@ -51,7 +51,7 @@ public class Converter     {
     }
 
 
-    public static String toJSON(User user) throws IOException {
+    public static void toJSON(User user) throws IOException {
           StringBuilder sb = new StringBuilder();
 
 
@@ -83,9 +83,9 @@ public class Converter     {
         Writer strWriter = new StringWriter();
         mapper.writeValue(strWriter, validationMap);
         String userDataJSON = strWriter.toString();          //result of transformation
-        return userDataJSON;
+        System.out.println(userDataJSON);
     }
 
-}
+
 
 }
