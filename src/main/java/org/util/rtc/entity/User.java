@@ -5,10 +5,10 @@ import org.util.rtc.annotation.*;
 
 public class User implements IUser {
     @minlength(5)
-    public String name;
+    private String name;
     @min(10)
     @maxlength(20)
-    public int age;
+    private int age;
     @Override
     public String getName() {
         return null;

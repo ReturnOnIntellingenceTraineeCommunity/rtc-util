@@ -20,7 +20,7 @@ import java.util.HashMap;
 public class Converter     {
 
 
-    public  static String getvalueanotatation (Annotation annotation,Field field){ //get value of anotation
+    public  static String getValueAnnotation (Annotation annotation,Field field){ //get value of anotation
         String s="";
         if(annotation instanceof max){
             max g = field.getAnnotation(max.class);
@@ -60,12 +60,12 @@ public class Converter     {
     //    Map<String,String> messages = new HashMap<String, String>();   //map for messages
 
 
-        for(Field field : user.getClass().getFields()){
+        for(Field field : user.getClass().getDeclaredFields()){
          //   messages.put(field.getName(),field.toString());
          Map<String,String> poledann = new HashMap<String, String>();
             for(Annotation annotation: field.getDeclaredAnnotations() ){  //get information about annotation
                 String s=annotation.annotationType().getSimpleName();
-                poledann.put(s, getvalueanotatation(annotation, field));    //ifformation about 1 annotation
+                poledann.put(s, getValueAnnotation(annotation, field));    //ifformation about 1 annotation
                 rules.put(field.getName(),poledann);                        //all anotation of 1 field
 
 
