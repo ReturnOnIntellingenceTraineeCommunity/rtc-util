@@ -5,6 +5,7 @@ import org.util.rtc.annotation.*;
 
 public class User implements IUser {
     @minlength(5)
+    @required
     private String name;
     @min(10)
     @maxlength(20)

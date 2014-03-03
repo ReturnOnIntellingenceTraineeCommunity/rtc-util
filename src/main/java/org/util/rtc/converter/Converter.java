@@ -51,7 +51,7 @@ public class Converter     {
     }
 
 
-    public static String toJSON(User user) throws IOException {
+    public static String toJSON(Class user) throws IOException {
           StringBuilder sb = new StringBuilder();
 
 
@@ -60,7 +60,7 @@ public class Converter     {
     //    Map<String,String> messages = new HashMap<String, String>();   //map for messages
 
 
-        for(Field field : user.getClass().getDeclaredFields()){
+        for(Field field : user.getDeclaredFields()){
          //   messages.put(field.getName(),field.toString());
          Map<String,String> poledann = new HashMap<String, String>();
             for(Annotation annotation: field.getDeclaredAnnotations() ){  //get information about annotation
