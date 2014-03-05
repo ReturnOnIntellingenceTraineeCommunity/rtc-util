@@ -1,26 +1,26 @@
 package org.util.rtc.converter;
-import  org.util.rtc.annotation.max;
-import  org.util.rtc.annotation.maxlength;
-import  org.util.rtc.annotation.min;
-import  org.util.rtc.annotation.minlength;
-import  org.util.rtc.annotation.range;
-import  org.util.rtc.annotation.rangelength;
-import org.util.rtc.entity.*;
+import org.springframework.context.MessageSource;
+import org.util.rtc.annotation.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.util.rtc.entity.User;
 
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
+import java.util.Locale;
 import java.util.Map;
 import java.util.HashMap;
 
-public class Converter     {
+public class Converter{
 
+    private MessageSource messageSource;
 
-    public  static String getValueAnnotation (Annotation annotation,Field field){ //get value of anotation
+    public Converter(MessageSource messageSource){
+        this.messageSource = messageSource;
+    }
+
+    private String getValueAnnotation (Annotation annotation,Field field){ //get value of anotation
         String s="";
         if(annotation instanceof max){
             max g = field.getAnnotation(max.class);
@@ -50,35 +50,62 @@ public class Converter     {
         return s;
     }
 
-
-    public static String toJSON(Class user) throws IOException {
-          StringBuilder sb = new StringBuilder();
-
-
-        Map <String, Map> validationMap = new HashMap<String, Map>(); //the major map
-        Map<String,Map> rules = new HashMap<String, Map>();                     //information from annotation
-    //    Map<String,String> messages = new HashMap<String, String>();   //map for messages
-
-
-        for(Field field : user.getDeclaredFields()){
-         //   messages.put(field.getName(),field.toString());
-         Map<String,String> poledann = new HashMap<String, String>();
-            for(Annotation annotation: field.getDeclaredAnnotations() ){  //get information about annotation
-                String s=annotation.annotationType().getSimpleName();
-                poledann.put(s, getValueAnnotation(annotation, field));    //ifformation about 1 annotation
-                rules.put(field.getName(),poledann);                        //all anotation of 1 field
-
-
-            }
-
-
+    private String getMessageAnnotation(Annotation annotation, Field field, Locale locale){
+        String message="";
+        if(annotation instanceof required){
+            message=messageSource.getMessage("required",null,locale);
         }
+        if(annotation instanceof min){
+            message=messageSource.getMessage("min",null,locale);
+            message += getValueAnnotation(annotation, field);
+        }
+        if(annotation instanceof maxlength){
+            message=messageSource.getMessage("maxlength",null,locale);
+            message += getValueAnnotation(annotation, field);
+        }
+        if(annotation instanceof minlength){
+            message=messageSource.getMessage("minlength",null,locale);
+            message += getValueAnnotation(annotation, field);
+        }
+        if(annotation instanceof range){
+            message=messageSource.getMessage("range",null,locale);
+            message += getValueAnnotation(annotation, field);
+        }
+        if(annotation instanceof rangelength){
+            message=messageSource.getMessage("rangelength",null,locale);
+            message += getValueAnnotation(annotation, field);
+        }
+        if(annotation instanceof email){
+            message=messageSource.getMessage("email",null,locale);
+        }
+
+        return message;
+    }
+
+
+
+    public  String toJSON(Class inClass, Locale locale) throws IOException {
+
+        Map <String,Map> validationMap = new HashMap<>(); //the major map
+        Map<String,Map> rules = new HashMap<>();   //information from annotation
+        Map<String,Map> messages = new HashMap<>();//error messages
+
+        for(Field field : inClass.getDeclaredFields()){
+            Map<String,String> validationField = new HashMap<>();
+            Map<String,String> messageField = new HashMap<>();
+            for(Annotation annotation: field.getDeclaredAnnotations() ){                        //get information about annotation
+                String annotationName=annotation.annotationType().getSimpleName();
+                validationField.put(annotationName, getValueAnnotation(annotation, field));    //information about 1 annotation
+                messageField.put(annotationName, getMessageAnnotation(annotation, field, locale));
+                rules.put(field.getName(),validationField);                                    //all anotation of 1 field
+                messages.put(field.getName(),messageField);
+            }
+        }
+        validationMap.put("messages", messages);
         validationMap.put("rules", rules);
- //       validationMap.put("messages", messages);
 
 
-
-//transform map to Json
+        //transform map to Json
         ObjectMapper mapper = new ObjectMapper();
         Writer strWriter = new StringWriter();
         mapper.writeValue(strWriter, validationMap);

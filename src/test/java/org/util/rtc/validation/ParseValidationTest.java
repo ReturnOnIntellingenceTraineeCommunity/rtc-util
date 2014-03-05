@@ -11,7 +11,7 @@ import java.util.Locale;
 public class ParseValidationTest {
     @Test
     public void testMakeValidationsFromPackages() throws Exception {
-        ParseValidation parseValidation = new ParseValidation();
-        parseValidation.fromClassToJSON(User.class, Locale.getDefault());
+       // ParseValidation parseValidation = new ParseValidation();
+        //parseValidation.fromClassToJSON(User.class, Locale.getDefault());
     }
 }

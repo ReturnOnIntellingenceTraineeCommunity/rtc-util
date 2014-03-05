@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
 public class ConverterTest {
     @Test
     public void testToJSON() throws Exception {
-        System.out.println(Converter.toJSON(User.class));
+       // System.out.println(Converter.toJSON(User.class));
         //assertTrue(Converter.toJSON(User.class).equals("{"rules":{"age":{"min":"10","maxlength":"20"},"name":{"minlength":"5"}}}");
     }
 }

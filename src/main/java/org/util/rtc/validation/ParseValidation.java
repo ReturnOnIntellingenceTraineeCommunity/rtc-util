@@ -11,15 +11,25 @@ import java.util.*;
 
 public class ParseValidation implements Serializable {
 
-    private Context context = new Context();
+    private Context context;
+    private Converter converter;
+
+    public  ParseValidation(Context context, Converter converter){
+        this.context = context;
+        this.converter = converter;
+    }
+
 
     public void fromClassToJSON(Class clazz, Locale locale){
         try {
-            context.add(clazz, Converter.toJSON(clazz));
+            context.add(clazz, converter.toJSON(clazz, locale));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public ParseValidation(){}
+    public String getJSON(Class inClass){
+        return context.get(inClass);
+    }
+
 }
