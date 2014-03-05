@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/messages_uk.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/util/rtc/converter/ConverterTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/util/rtc/converter/ConverterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/validation/ParseValidation.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/validation/ParseValidation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/util/rtc/validation/ParseValidationTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/util/rtc/validation/ParseValidationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="added internationalization to converter, configured beans&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rtc-util.iml" afterPath="$PROJECT_DIR$/rtc-util.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rtc-app.iws" />
@@ -94,19 +86,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ParseValidation.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ParseValidation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/validation/ParseValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="61" selection-start="631" selection-end="631" vertical-scroll-proportion="0.41916168" vertical-offset="115" max-vertical-offset="510">
+            <state line="24" column="61" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="871" selection-end="871" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="13" column="48" selection-start="663" selection-end="663" vertical-scroll-proportion="0.23986487" vertical-offset="124" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -137,6 +129,15 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="14" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1740">
               <folding />
             </state>
           </provider>
@@ -244,17 +245,17 @@
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/url.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/minlength.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
         <option value="$PROJECT_DIR$/src/test/java/org/util/rtc/converter/ConverterTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_uk.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/util/rtc/validation/ParseValidationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/validation/ParseValidation.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
       </list>
     </option>
   </component>
@@ -367,6 +368,62 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtc-util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'messages'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtc-util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -398,32 +455,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtc-util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -438,7 +469,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
@@ -909,7 +940,7 @@
       <workItem from="1393949291305" duration="1448000" />
       <workItem from="1393953400661" duration="12000" />
       <workItem from="1393953414805" duration="3190000" />
-      <workItem from="1394038776814" duration="12487000" />
+      <workItem from="1394038776814" duration="13871000" />
     </task>
     <task id="LOCAL-00001" summary=".idea">
       <created>1392914694541</created>
@@ -1011,11 +1042,19 @@
       <created>1393873847061</created>
       <updated>1393873847061</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added internationalization to converter, configured beans&#10;">
+      <created>1394052565984</created>
+      <updated>1394052565984</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added internationalization to converter, configured beans&#10;">
+      <created>1394052591951</created>
+      <updated>1394052591951</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60945000" />
+    <option name="totallyTimeSpent" value="62329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="61" width="1358" height="688" extended-state="0" />
@@ -1064,7 +1103,6 @@
       <TodoPanelSettings />
     </option>
     <confirmMoveToFailedCommit value="1" />
-    <MESSAGE value="Add @maxlenght to User&#10;" />
     <MESSAGE value="." />
     <MESSAGE value=".&#10;" />
     <MESSAGE value="rtc-util.iml" />
@@ -1089,7 +1127,8 @@
     <MESSAGE value="Finish annotations&#10;" />
     <MESSAGE value="Converter" />
     <MESSAGE value="ParseValidation" />
-    <option name="LAST_COMMIT_MESSAGE" value="ParseValidation" />
+    <MESSAGE value="added internationalization to converter, configured beans&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added internationalization to converter, configured beans&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1283,13 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.56" vertical-offset="1" max-vertical-offset="270">
@@ -1328,13 +1360,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="5" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="871" selection-end="871" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
@@ -1387,7 +1412,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/validation/ParseValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="61" selection-start="631" selection-end="631" vertical-scroll-proportion="0.41916168" vertical-offset="115" max-vertical-offset="510">
+        <state line="24" column="61" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="48" selection-start="663" selection-end="663" vertical-scroll-proportion="0.23986487" vertical-offset="124" max-vertical-offset="420">
           <folding />
         </state>
       </provider>

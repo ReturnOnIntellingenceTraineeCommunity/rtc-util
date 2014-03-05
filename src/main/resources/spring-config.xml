@@ -4,14 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd ">
 
 
-    <bean id="messageSource"
+    <bean id="errorMessageSource"
           class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
         <property name="basename" value="/messages" />
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
 
     <bean id="converter" class="org.util.rtc.converter.Converter">
-        <constructor-arg ref="messageSource"/>
+        <constructor-arg ref="errorMessageSource"/>
     </bean>
 
     <bean id="context" class="org.util.rtc.context.Context"/>
