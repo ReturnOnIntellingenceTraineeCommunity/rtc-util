@@ -86,13 +86,13 @@ public class Converter{
 
     public  String toJSON(Class inClass, Locale locale) throws IOException {
 
-        Map <String,Map> validationMap = new HashMap<>(); //the major map
-        Map<String,Map> rules = new HashMap<>();   //information from annotation
-        Map<String,Map> messages = new HashMap<>();//error messages
+        Map <String,Map> validationMap = new HashMap<String,Map>(); //the major map
+        Map<String,Map> rules = new HashMap<String,Map>();   //information from annotation
+        Map<String,Map> messages = new HashMap<String,Map>();//error messages
 
         for(Field field : inClass.getDeclaredFields()){
-            Map<String,String> validationField = new HashMap<>();
-            Map<String,String> messageField = new HashMap<>();
+            Map<String,String> validationField = new HashMap<String,String>();
+            Map<String,String> messageField = new HashMap<String,String>();
             for(Annotation annotation: field.getDeclaredAnnotations() ){                        //get information about annotation
                 String annotationName=annotation.annotationType().getSimpleName();
                 validationField.put(annotationName, getValueAnnotation(annotation, field));    //information about 1 annotation
