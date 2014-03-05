@@ -6,7 +6,7 @@
 
     <bean id="errorMessageSource"
           class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <property name="basename" value="/messages" />
+        <property name="basename" value="/errrorMessages" />
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
 
