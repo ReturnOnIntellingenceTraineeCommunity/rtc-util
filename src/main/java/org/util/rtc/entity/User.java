@@ -4,13 +4,24 @@ package org.util.rtc.entity;
 import org.util.rtc.annotation.*;
 
 public class User implements IUser {
-    @minlength(5)
-    @required
-    private String name;
-    @min(10)
-    @maxlength(20)
-    private int age;
-    @Override
+    @min(3)
+    private String fio;
+    @number
+    private String phone;
+    @email
+    private String email;
+    @date
+    private Date birthDate;
+    private String city;
+    private String university;
+    private String faculty;
+    private String major;
+    private List<String> technologies;
+    private Integer writtenEng;
+    private Integer oralEng;
+    private String note;
+    @min(1)
+    private String password;
     public String getName() {
         return null;
     }
