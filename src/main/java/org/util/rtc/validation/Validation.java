@@ -1,23 +1,23 @@
 package org.util.rtc.validation;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.util.rtc.context.Context;
 import org.util.rtc.converter.Converter;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
-import java.net.URL;
-import java.util.*;
+import java.util.Locale;
 
-public class ParseValidation implements Serializable {
+@Component
+public class Validation implements Serializable {
 
+    @Autowired
     private Context context;
+    @Autowired
     private Converter converter;
 
-    public  ParseValidation(Context context, Converter converter){
-        this.context = context;
-        this.converter = converter;
-    }
+    public Validation(){}
 
 
     public void fromClassToJSON(Class clazz, Locale locale){

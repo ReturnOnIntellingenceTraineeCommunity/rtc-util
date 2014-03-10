@@ -1,4 +1,4 @@
-package org.util.rtc.converter;
+package org.util.rtc.validation;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -8,11 +8,11 @@ import org.util.rtc.entity.User;
 import java.util.Locale;
 
 
-public class ConverterTest {
+public class ValidationTest {
     @Test
-    public void testToJSON() throws Exception {
+    public void testMakeValidationsFromPackages() throws Exception {
         ApplicationContext context = new ClassPathXmlApplicationContext("/spring-config.xml");
-        Converter converter = (Converter)context.getBean("converter");
-        System.out.println(converter.toJSON(User.class, Locale.ENGLISH));
+        Validation validation = (Validation)context.getBean("validation");
+        validation.fromClassToJSON(User.class, Locale.ENGLISH);
     }
 }

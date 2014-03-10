@@ -1,7 +1,13 @@
 package org.util.rtc.entity;
 
 
-import org.util.rtc.annotation.*;
+import org.util.rtc.annotation.date;
+import org.util.rtc.annotation.email;
+import org.util.rtc.annotation.min;
+import org.util.rtc.annotation.number;
+
+import java.util.Date;
+import java.util.List;
 
 public class User implements IUser {
     @min(3)

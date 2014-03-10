@@ -1,9 +1,12 @@
 package org.util.rtc.context;
 
 
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class Context {
     private Map<Class, String> map = new HashMap<Class, String>();
 

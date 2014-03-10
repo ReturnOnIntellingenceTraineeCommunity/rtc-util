@@ -1,5 +1,7 @@
 package org.util.rtc.converter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.stereotype.Component;
 import org.util.rtc.annotation.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -12,13 +14,11 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.HashMap;
 
+@Component
 public class Converter{
 
+    @Autowired
     private MessageSource messageSource;
-
-    public Converter(MessageSource messageSource){
-        this.messageSource = messageSource;
-    }
 
     private String getValueAnnotation (Annotation annotation,Field field){ //get value of anotation
         String s="";
@@ -51,36 +51,10 @@ public class Converter{
     }
 
     private String getMessageAnnotation(Annotation annotation, Field field, Locale locale){
-        String message="";
-        if(annotation instanceof required){
-            message=messageSource.getMessage("required",null,locale);
-        }
-        if(annotation instanceof min){
-            message=messageSource.getMessage("min",null,locale);
-            message += getValueAnnotation(annotation, field);
-        }
-        if(annotation instanceof maxlength){
-            message=messageSource.getMessage("maxlength",null,locale);
-            message += getValueAnnotation(annotation, field);
-        }
-        if(annotation instanceof minlength){
-            message=messageSource.getMessage("minlength",null,locale);
-            message += getValueAnnotation(annotation, field);
-        }
-        if(annotation instanceof range){
-            message=messageSource.getMessage("range",null,locale);
-            message += getValueAnnotation(annotation, field);
-        }
-        if(annotation instanceof rangelength){
-            message=messageSource.getMessage("rangelength",null,locale);
-            message += getValueAnnotation(annotation, field);
-        }
-        if(annotation instanceof email){
-            message=messageSource.getMessage("email",null,locale);
-        }
-
-        return message;
+        String annotationName= annotation.annotationType().getSimpleName();
+        return messageSource.getMessage("min", null, locale)+getValueAnnotation(annotation, field);
     }
+
 
 
 
@@ -112,7 +86,4 @@ public class Converter{
         String userDataJSON = strWriter.toString();          //result of transformation
         return userDataJSON;
     }
-
-
-
 }
