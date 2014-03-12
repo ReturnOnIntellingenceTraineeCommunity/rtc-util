@@ -13,6 +13,8 @@ public class User implements IUser {
     @number
     private String phone;
     @email
+    @minlength(5)
+    @maxlength(123)
     private String email;
     @date
     private Date birthDate;

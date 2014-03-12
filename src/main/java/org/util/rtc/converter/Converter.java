@@ -28,7 +28,11 @@ public class Converter{
     private static final Map<String, AnnotationConverter> annotationConverters = new HashMap<String, AnnotationConverter>();
 
     static {
+<<<<<<< Updated upstream
         AVAILABLE_ANNOTATIONS =  Arrays.asList("min", "max", "minlength", "maxlength", "range", "rangelength");
+=======
+        AVAILABLE_ANNOTATIONS =  Arrays.asList("min", "max", "maxlength", "minlength", "range", "rangelength");
+>>>>>>> Stashed changes
         annotationConverters.put("min", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
@@ -85,12 +89,20 @@ public class Converter{
 
 
     private String getMessageAnnotation(Annotation annotation, Locale locale){
+<<<<<<< Updated upstream
         String nameAnnotation = annotation.annotationType().getSimpleName();
         if(AVAILABLE_ANNOTATIONS.contains(nameAnnotation)){
             return messageSource.getMessage("min", null, locale)+getValueAnnotation(annotation);
         }else{
             return messageSource.getMessage("min", null, locale);
         }
+=======
+        String name = annotation.annotationType().getSimpleName();
+        if(AVAILABLE_ANNOTATIONS.contains(name)){
+            return eMessageSource.getMessage(name, null, locale)+getValueAnnotation(annotation);
+        }
+        return eMessageSource.getMessage(name, null, locale);
+>>>>>>> Stashed changes
     }
 
     public  String toJSON(Class inClass, Locale locale) throws IOException {

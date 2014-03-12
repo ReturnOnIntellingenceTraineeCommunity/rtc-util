@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="Changed getValueAnnotation">
+    <list default="true" id="9ec9626f-e85e-4293-b62f-10910d4641d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/errrorMessages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/errrorMessages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/errrorMessages_ru.properties" afterPath="$PROJECT_DIR$/src/main/resources/errrorMessages_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/errrorMessages_uk.properties" afterPath="$PROJECT_DIR$/src/main/resources/errrorMessages_uk.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/util/rtc/entity/User.java" afterPath="$PROJECT_DIR$/src/test/java/org/util/rtc/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rtc-util.iml" afterPath="$PROJECT_DIR$/rtc-util.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="rtc-app.iws" />
+    <ignored path="rtc-util.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -61,118 +60,28 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" line="84" class="org.util.rtc.converter.Converter" package="org.util.rtc.converter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="rtc-app" />
+    <favorites_list name="rtc-util" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Converter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Converter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="16" selection-start="3515" selection-end="3515" vertical-scroll-proportion="0.61403507" vertical-offset="945" max-vertical-offset="1575">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1694#1883#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
-                <element signature="e#3295#3307#0" expanded="true" />
-                <element signature="e#3371#3384#0" expanded="true" />
-                <element signature="e#3466#3478#0" expanded="true" />
-                <element signature="e#3616#3632#0" expanded="true" />
-                <element signature="e#3693#3708#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="16" column="13" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1365">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java">
+      <file leaf-file-name="Validation.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/validation/Validation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errrorMessages_en.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/errrorMessages_en.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="233" selection-end="233" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errrorMessages_ru.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/errrorMessages_ru.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errrorMessages_uk.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/errrorMessages_uk.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="227" selection-end="236" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConverterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/converter/ConverterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="342" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="12" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.1313485" vertical-offset="0" max-vertical-offset="571">
               <folding />
             </state>
           </provider>
@@ -186,108 +95,15 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="prisyazhnuy@gmail.com" />
-      </list>
-    </option>
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/tests/testConverter.java" />
-        <option value="$PROJECT_DIR$/src/test/org/util/test/rtc/converter/ConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/converter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/Creditcard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/Creditcard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/Date.java" />
-        <option value="$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/ConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/context/ContextTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/util/rtc/context/ContextTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/digits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/email.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/maxlength.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/number.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/range.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/rangelength.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/required.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/url.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/minlength.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_uk.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/org/util/rtc/validation/ParseValidationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/validation/ParseValidation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/validation/Validation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/util/rtc/converter/ConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/util/rtc/validation/ValidationTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/org/util/rtc/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/IUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/errrorMessages_uk.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/errrorMessages_ru.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/errrorMessages_en.properties" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
     <option name="y" value="42" />
-    <option name="width" value="1360" />
+    <option name="width" value="1304" />
     <option name="height" value="726" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Imports</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>UNUSED_IMPORT</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -296,7 +112,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -346,18 +162,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -374,10 +178,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,6 +204,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rtc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,10 +241,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtc-util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,215 +280,14 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/org/util/rtc" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.util.rtc.validation" />
-      <recent name="org.util.rtc.converter" />
-      <recent name="org.util.rtc.context" />
-      <recent name="org.util.test.rtc.converter" />
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.util.rtc.converter" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org.util.rtc" />
-      <recent name="org.util.rtc.context" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="C:\Users\Dell\IdeaProjects\rtc-util\src\main\java\org\util\rtc\annotation" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.ConverterTest.testToJSON">
-    <configuration default="false" name="ConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.util.rtc.converter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="rtc-util" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.util.rtc.converter" />
-      <option name="MAIN_CLASS_NAME" value="org.util.rtc.converter.ConverterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ValidationTest.testMakeValidationsFromPackages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.util.rtc.validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="rtc-util" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.util.rtc.validation" />
-      <option name="MAIN_CLASS_NAME" value="org.util.rtc.validation.ValidationTest" />
-      <option name="METHOD_NAME" value="testMakeValidationsFromPackages" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.util.rtc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.util.rtc.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="rtc-util" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConverterTest.testToJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.util.rtc.converter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="rtc-util" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.util.rtc.converter" />
-      <option name="MAIN_CLASS_NAME" value="org.util.rtc.converter.ConverterTest" />
-      <option name="METHOD_NAME" value="testToJSON" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="rtc-util" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -667,22 +296,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -713,6 +326,34 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -734,355 +375,57 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ConverterTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ValidationTest.testMakeValidationsFromPackages" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConverterTest.testToJSON" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ConverterTest.testToJSON" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ConverterTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ValidationTest.testMakeValidationsFromPackages" />
-      </list>
-    </recent_temporary>
+    <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f5b8edc-fd02-43c0-aa88-121797a34d2c" name="Default" comment="" />
-      <created>1392415971750</created>
-      <updated>1392415971750</updated>
-      <workItem from="1392415974145" duration="161000" />
-      <workItem from="1392416202232" duration="632000" />
-      <workItem from="1392914540448" duration="2019000" />
-      <workItem from="1392929952938" duration="415000" />
-      <workItem from="1393012300040" duration="559000" />
-      <workItem from="1393224081089" duration="6000" />
-      <workItem from="1393256664830" duration="698000" />
-      <workItem from="1393261894357" duration="2891000" />
-      <workItem from="1393265835793" duration="743000" />
-      <workItem from="1393273904604" duration="2639000" />
-      <workItem from="1393350092638" duration="3506000" />
-      <workItem from="1393359994915" duration="2673000" />
-      <workItem from="1393426668875" duration="4684000" />
-      <workItem from="1393433271457" duration="1874000" />
-      <workItem from="1393439749108" duration="684000" />
-      <workItem from="1393444747489" duration="1103000" />
-      <workItem from="1393447407000" duration="226000" />
-      <workItem from="1393447960409" duration="6824000" />
-      <workItem from="1393611388981" duration="4547000" />
-      <workItem from="1393786409477" duration="1876000" />
-      <workItem from="1393867807500" duration="5048000" />
-      <workItem from="1393949291305" duration="1448000" />
-      <workItem from="1393953400661" duration="12000" />
-      <workItem from="1393953414805" duration="3190000" />
-      <workItem from="1394038776814" duration="14582000" />
-      <workItem from="1394462688418" duration="8000" />
-      <workItem from="1394462698309" duration="2122000" />
-      <workItem from="1394472769716" duration="939000" />
-      <workItem from="1394556789620" duration="5009000" />
-      <workItem from="1394643040065" duration="72000" />
-      <workItem from="1394643119554" duration="1721000" />
+      <changelist id="9ec9626f-e85e-4293-b62f-10910d4641d3" name="Default" comment="" />
+      <created>1394651257497</created>
+      <updated>1394651257497</updated>
+      <workItem from="1394651258317" duration="582000" />
     </task>
-    <task id="LOCAL-00001" summary=".idea">
-      <created>1392914694541</created>
-      <updated>1392914694541</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add annotations, Converter, User, IUser">
-      <created>1392915958388</created>
-      <updated>1392915958388</updated>
-    </task>
-    <task id="LOCAL-00003" summary=".idea&#10;">
-      <created>1392930057008</created>
-      <updated>1392930057008</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Change annotations">
-      <created>1393265964524</created>
-      <updated>1393265964524</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add @max to User">
-      <created>1393274571104</created>
-      <updated>1393274571104</updated>
-    </task>
-    <task id="LOCAL-00006" summary="workspace">
-      <created>1393274925733</created>
-      <updated>1393274925733</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Add @maxlenght to User">
-      <created>1393274981085</created>
-      <updated>1393274981085</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add @maxlenght to User&#10;">
-      <created>1393275781621</created>
-      <updated>1393275781621</updated>
-    </task>
-    <task id="LOCAL-00009" summary=".">
-      <created>1393275956243</created>
-      <updated>1393275956243</updated>
-    </task>
-    <task id="LOCAL-00010" summary="rtc-util.iml">
-      <created>1393350222112</created>
-      <updated>1393350222112</updated>
-    </task>
-    <task id="LOCAL-00011" summary="a">
-      <created>1393351072212</created>
-      <updated>1393351072212</updated>
-    </task>
-    <task id="LOCAL-00012" summary="workspace">
-      <created>1393351103273</created>
-      <updated>1393351103273</updated>
-    </task>
-    <task id="LOCAL-00013" summary="test">
-      <created>1393352582965</created>
-      <updated>1393352582965</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Rename Creditcard">
-      <created>1393360177820</created>
-      <updated>1393360177820</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Del converter">
-      <created>1393360370165</created>
-      <updated>1393360370165</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Del test">
-      <created>1393361010192</created>
-      <updated>1393361010192</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Create Context">
-      <created>1393362068046</created>
-      <updated>1393362068046</updated>
-    </task>
-    <task id="LOCAL-00018" summary="workspace">
-      <created>1393429188115</created>
-      <updated>1393429188115</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Change Context and add ContextTest">
-      <created>1393434201499</created>
-      <updated>1393434201499</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Add import">
-      <created>1393450442432</created>
-      <updated>1393450442432</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Add convertTest change Converter">
-      <created>1393506609331</created>
-      <updated>1393506609331</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Finish annotations">
-      <created>1393506994033</created>
-      <updated>1393506994033</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Finish annotations&#10;">
-      <created>1393507014085</created>
-      <updated>1393507014085</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Converter">
-      <created>1393873821231</created>
-      <updated>1393873821231</updated>
-    </task>
-    <task id="LOCAL-00025" summary="ParseValidation">
-      <created>1393873847061</created>
-      <updated>1393873847061</updated>
-    </task>
-    <task id="LOCAL-00026" summary="added internationalization to converter, configured beans&#10;">
-      <created>1394052565984</created>
-      <updated>1394052565984</updated>
-    </task>
-    <task id="LOCAL-00027" summary="added internationalization to converter, configured beans&#10;">
-      <created>1394052591951</created>
-      <updated>1394052591951</updated>
-    </task>
-    <task id="LOCAL-00028" summary="bean fixing">
-      <created>1394053897466</created>
-      <updated>1394053897466</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72911000" />
+    <option name="totallyTimeSpent" value="582000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="42" width="1360" height="726" extended-state="4" />
+    <frame x="42" y="42" width="1304" height="726" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2754386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-22" y="448" width="1304" height="223" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39632106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32441473" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2393617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32441473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1097,425 +440,25 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <confirmMoveToFailedCommit value="1" />
-    <MESSAGE value="rtc-util.iml" />
-    <MESSAGE value="a" />
-    <MESSAGE value="Creditcard" />
-    <MESSAGE value="renamed&#10;" />
-    <MESSAGE value="workspace&#10;" />
-    <MESSAGE value="test" />
-    <MESSAGE value="Converter renamed" />
-    <MESSAGE value="Cr" />
-    <MESSAGE value="Renamed" />
-    <MESSAGE value="Rename Creditcard" />
-    <MESSAGE value="Renamed converter" />
-    <MESSAGE value="Del converter" />
-    <MESSAGE value="Del test" />
-    <MESSAGE value="Create Context" />
-    <MESSAGE value="workspace" />
-    <MESSAGE value="Change Context and add ContextTest" />
-    <MESSAGE value="Add import" />
-    <MESSAGE value="Add convertTest change Converter" />
-    <MESSAGE value="Finish annotations" />
-    <MESSAGE value="Finish annotations&#10;" />
-    <MESSAGE value="Converter" />
-    <MESSAGE value="ParseValidation" />
-    <MESSAGE value="added internationalization to converter, configured beans&#10;" />
-    <MESSAGE value="bean fixing" />
-    <MESSAGE value="Changed getValueAnnotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed getValueAnnotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/rtc_util_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="427" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/creditcard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/dateISO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/digits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/email.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/maxlength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.074074075" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.074074075" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/rangelength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.074074075" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/remote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/required.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/url.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.083333336" vertical-offset="0" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/max.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/minlength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="149" selection-end="205" vertical-scroll-proportion="0.20833333" vertical-offset="0" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/Result.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="914" selection-end="914" vertical-scroll-proportion="0.3313433" vertical-offset="314" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.39130434" vertical-offset="384" max-vertical-offset="731" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.33229813" vertical-offset="726" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.0.RELEASE/spring-context-3.2.0.RELEASE.jar!/org/springframework/context/support/ReloadableResourceBundleMessageSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="1391" selection-end="1391" vertical-scroll-proportion="-3.96" vertical-offset="216" max-vertical-offset="1305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/entity/IUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/context/ContextTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/validation/ValidationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rtc-util.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/annotation/min.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="7" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state line="16" column="13" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/validation/Validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="12" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.1313485" vertical-offset="0" max-vertical-offset="571">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/context/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/util/rtc/converter/ConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="342" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/errrorMessages_uk.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="227" selection-end="236" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/errrorMessages_ru.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/errrorMessages_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="233" selection-end="233" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/util/rtc/converter/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="16" selection-start="3515" selection-end="3515" vertical-scroll-proportion="0.61403507" vertical-offset="945" max-vertical-offset="1575">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1694#1883#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#3295#3307#0" expanded="true" />
-            <element signature="e#3371#3384#0" expanded="true" />
-            <element signature="e#3466#3478#0" expanded="true" />
-            <element signature="e#3616#3632#0" expanded="true" />
-            <element signature="e#3693#3708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>rtc-app:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>grails-2.3.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|rtc-util</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 
