@@ -17,7 +17,7 @@ import java.util.*;
 public class Converter{
 
     @Autowired
-    private MessageSource messageSource;
+    private MessageSource eMessageSource;
 
     private interface AnnotationConverter {
         Object convert(Annotation annotation);
@@ -85,9 +85,9 @@ public class Converter{
         String name = annotation.annotationType().getSimpleName();
         Object value = getValueAnnotation(annotation);
         if(value instanceof Boolean){
-            return messageSource.getMessage(name, null, locale);
+            return eMessageSource.getMessage(name, null, locale);
         }
-        return messageSource.getMessage(name, null, locale)+value.toString();
+        return eMessageSource.getMessage(name, null, locale)+value.toString();
     }
 
     public  String toJSON(Class inClass, Locale locale) throws IOException {
