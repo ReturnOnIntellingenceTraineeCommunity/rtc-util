@@ -115,6 +115,7 @@ public class Converter{
         ObjectMapper mapper = new ObjectMapper();
         Writer strWriter = new StringWriter();
         mapper.writeValue(strWriter, validationMap);
-        return strWriter.toString().substring(1, strWriter.toString().length()-1);
+        String result = strWriter.toString();
+        return result.substring(1, result.length()-1)+",";
     }
 }
