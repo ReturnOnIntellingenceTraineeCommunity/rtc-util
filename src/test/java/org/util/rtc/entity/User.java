@@ -16,6 +16,7 @@ public class User implements IUser {
     private String email;
     @date
     private Date birthDate;
+    @range({2,5})
     private String city;
     private String university;
     private String faculty;

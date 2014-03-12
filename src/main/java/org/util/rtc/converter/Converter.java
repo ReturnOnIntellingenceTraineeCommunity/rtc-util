@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 import org.util.rtc.annotation.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -27,7 +28,7 @@ public class Converter{
     private static final Map<String, AnnotationConverter> annotationConverters = new HashMap<String, AnnotationConverter>();
 
     static {
-        AVAILABLE_ANNOTATIONS =  Arrays.asList("min", "max", "maxlength", "maxlength", "range", "rangelength");
+        AVAILABLE_ANNOTATIONS =  Arrays.asList("min", "max", "minlength", "maxlength", "range", "rangelength");
         annotationConverters.put("min", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
@@ -66,11 +67,13 @@ public class Converter{
         });
     }
 
-
+    @Autowired
+    private MessageSource messageSource;
 
     private Object getValueAnnotation (Annotation annotation){ //get value of anotation
         Object obj;
         String nameAnnotation = annotation.annotationType().getSimpleName();
+        System.out.println(nameAnnotation);
         if(AVAILABLE_ANNOTATIONS.contains(nameAnnotation)){
             obj=annotationConverters.get(nameAnnotation).convert(annotation);
         }else{
@@ -82,12 +85,12 @@ public class Converter{
 
 
     private String getMessageAnnotation(Annotation annotation, Locale locale){
-        String name = annotation.annotationType().getSimpleName();
-        Object value = getValueAnnotation(annotation);
-        if(value instanceof Boolean){
-            return eMessageSource.getMessage(name, null, locale);
+        String nameAnnotation = annotation.annotationType().getSimpleName();
+        if(AVAILABLE_ANNOTATIONS.contains(nameAnnotation)){
+            return messageSource.getMessage("min", null, locale)+getValueAnnotation(annotation);
+        }else{
+            return messageSource.getMessage("min", null, locale);
         }
-        return eMessageSource.getMessage(name, null, locale)+value.toString();
     }
 
     public  String toJSON(Class inClass, Locale locale) throws IOException {
