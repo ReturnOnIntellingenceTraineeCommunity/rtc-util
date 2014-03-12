@@ -4,7 +4,7 @@
   <groupId>rtc-util</groupId>
   <artifactId>rtc-util</artifactId>
   <packaging>jar</packaging>
-  <version>1.1.5-RELEASE</version>
+  <version>1.1.6-RELEASE</version>
   <name>rtc-util Maven Webapp</name>
 
     <distributionManagement>
@@ -14,9 +14,11 @@
             <url>https://api.bintray.com/maven/rtcommunity/maven/rtc-util</url>
         </repository>
     </distributionManagement>
+
     <properties>
         <spring.version>3.2.0.RELEASE</spring.version>
     </properties>
+
   <dependencies>
       <dependency>
           <groupId>org.springframework</groupId>
@@ -97,31 +99,6 @@
                       <source>1.6</source>
                       <target>1.6</target>
                   </configuration>
-              </plugin>
-
-              <plugin>
-                  <groupId>org.jfrog.buildinfo</groupId>
-                  <artifactId>artifactory-maven-plugin</artifactId>
-                  <version>2.2.2</version>
-                  <inherited>false</inherited>
-                  <executions>
-                      <execution>
-                          <id>build-info</id>
-                          <goals>
-                              <goal>publish</goal>
-                          </goals>
-                          <configuration>
-                              <publisher>
-                                  <contextUrl>bintray-rtcommunity-maven-rtc-util</contextUrl>
-                                  <username>rtcommunity</username>
-                                  <password>{DESede}3b55b1178dfcaa02ed1460245c043a70c97a8cbb</password>
-                                  <excludePatterns>*.pom</excludePatterns>
-                                  <repoKey>libs-releases-local</repoKey>
-                                  <snapshotRepoKey>libs-snapshots-local</snapshotRepoKey>
-                              </publisher>
-                          </configuration>
-                      </execution>
-                  </executions>
               </plugin>
           </plugins>
       </pluginManagement>
