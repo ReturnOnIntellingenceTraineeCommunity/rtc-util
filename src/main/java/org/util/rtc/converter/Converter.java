@@ -72,7 +72,6 @@ public class Converter{
     private Object getValueAnnotation (Annotation annotation){ //get value of anotation
         Object obj;
         String nameAnnotation = annotation.annotationType().getSimpleName();
-        System.out.println(nameAnnotation);
         if(AVAILABLE_ANNOTATIONS.contains(nameAnnotation)){
             obj=annotationConverters.get(nameAnnotation).convert(annotation);
         }else{
