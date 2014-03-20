@@ -1,11 +1,18 @@
 package org.util.rtc.entity;
 
 import org.hibernate.validator.constraints.*;
+import org.util.rtc.annotation.Validatable;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * @author Vladislav Pikus
  */
+@Validatable
 public class Person {
+    private Collection<Hello> hellos = new ArrayList<Hello>();
+
     @NotEmpty
     @Length(min = 3, max = 30)
     private String firstName;
@@ -23,4 +30,7 @@ public class Person {
 
     @URL
     private String url;
+
+    @NotEmpty
+    private User user;
 }

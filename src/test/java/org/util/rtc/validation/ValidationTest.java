@@ -15,8 +15,8 @@ public class ValidationTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("/spring-config.xml");
         Validation validation = (Validation)context.getBean("validation");
         validation.fromClassToJSON(Person.class, Locale.ENGLISH);
-        validation.fromClassToJSON(User.class, Locale.ENGLISH);
+        //validation.fromClassToJSON(User.class, Locale.ENGLISH);
         System.out.println(validation.getJSON(Person.class));
-        System.out.println(validation.getJSON(User.class));
+        //System.out.println(validation.getJSON(User.class));
     }
 }

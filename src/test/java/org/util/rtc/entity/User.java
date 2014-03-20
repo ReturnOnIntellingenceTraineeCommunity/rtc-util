@@ -6,6 +6,7 @@ import org.util.rtc.annotation.*;
 import java.util.Date;
 import java.util.List;
 
+
 public class User implements IUser {
     @min(3)
     @max(45)
@@ -27,6 +28,7 @@ public class User implements IUser {
     private Integer writtenEng;
     private Integer oralEng;
     private String note;
+    private Hello hello;
     @min(1)
     private String password;
     public String getName() {

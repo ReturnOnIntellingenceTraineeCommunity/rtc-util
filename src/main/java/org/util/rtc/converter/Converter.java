@@ -119,23 +119,40 @@ public class Converter {
         return eMessageSource.getMessage(name, null, locale);
     }
 
+    private boolean doClass(Class inClass, Locale locale, Map<Object, Map> rules, Map<String, Map> messages, String parent) {
+        boolean flag = false;
+        for (Annotation annotation : inClass.getDeclaredAnnotations()) {
+            if (annotation instanceof Validatable) {
+                flag = true;
+                break;
+            }
+        }
+        if (flag) {
+            for (Field field : inClass.getDeclaredFields()) {
+                String fieldName = (parent.equals("")) ? field.getName() : String.format("%s.%s", parent, field.getName());
+                if (doClass(field.getType(), locale, rules, messages, fieldName)) {
+                    Map<String, Object> validationField = new HashMap<String, Object>();
+                    Map<String, String> messageField = new HashMap<String, String>();
+                    for (Annotation annotation : field.getDeclaredAnnotations()) {                        //get information about annotation
+                        String annotationName = getRealNameAnnotation(annotation);
+                        validationField.put(annotationName, getValueAnnotation(annotation));    //information about 1 annotation
+                        messageField.put(annotationName, getMessageAnnotation(annotation, locale));
+                        rules.put(fieldName, validationField);                                    //all anotation of 1 field
+                        messages.put(fieldName, messageField);
+                    }
+                }
+            }
+            return false;
+        }
+        return true;
+    }
+
     public String toJSON(Class inClass, Locale locale) throws IOException {
 
         Map<String, Map> validationMap = new HashMap<String, Map>(); //the major map
         Map<Object, Map> rules = new HashMap<Object, Map>();   //information from annotation
         Map<String, Map> messages = new HashMap<String, Map>();//error messages
-
-        for (Field field : inClass.getDeclaredFields()) {
-            Map<String, Object> validationField = new HashMap<String, Object>();
-            Map<String, String> messageField = new HashMap<String, String>();
-            for (Annotation annotation : field.getDeclaredAnnotations()) {                        //get information about annotation
-                String annotationName = getRealNameAnnotation(annotation);
-                validationField.put(annotationName, getValueAnnotation(annotation));    //information about 1 annotation
-                messageField.put(annotationName, getMessageAnnotation(annotation, locale));
-                rules.put(field.getName(), validationField);                                    //all anotation of 1 field
-                messages.put(field.getName(), messageField);
-            }
-        }
+        doClass(inClass, locale, rules, messages, "");
         validationMap.put("messages", messages);
         validationMap.put("rules", rules);
 
