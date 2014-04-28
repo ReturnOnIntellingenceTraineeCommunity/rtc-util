@@ -1,8 +1,9 @@
-package net.github.rtc.util.context;
+package net.github.rtc.util.converter;
 
 
 import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,7 +12,7 @@ import java.util.Map;
  * is a JSON that was build according to this class
  */
 @Component
-public class Context {
+public class Context implements Serializable{
     private Map<Class, String> map = new HashMap<Class, String>();
 
     public void add(Class key, String value){

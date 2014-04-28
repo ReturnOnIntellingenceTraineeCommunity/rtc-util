@@ -2,7 +2,6 @@ package net.github.rtc.util.converter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.hibernate.validator.constraints.Length;
-import org.hibernate.validator.constraints.Range;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
@@ -34,48 +33,48 @@ public class Converter {
     private static final Map<String, String> ALIAS = new HashMap<String, String>();
 
     static {
-        ALIAS.put("NotEmpty", "required");
-        ALIAS.put("CreditCardNumber", "creditcard");
-        ALIAS.put("Email", "email");
-        ALIAS.put("Length", "rangelength");
-        ALIAS.put("NotBlank", "required");
-        ALIAS.put("Range", "range");
-        ALIAS.put("URL", "url");
+        ALIAS.put("NotEmpty", "Required");
+        ALIAS.put("CreditCardNumber", "Creditcard");
+        ALIAS.put("Email", "Email");
+        ALIAS.put("Length", "Rangelength");
+        ALIAS.put("NotBlank", "Required");
+        ALIAS.put("Range", "Range");
+        ALIAS.put("URL", "Url");
 
-        annotationConverters.put("min", new AnnotationConverter() {
+        annotationConverters.put("Min", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
-                return ((min) annotation).value();
+                return ((Min) annotation).value();
             }
         });
-        annotationConverters.put("max", new AnnotationConverter() {
+        annotationConverters.put("Max", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
-                return ((max) annotation).value();
+                return ((Max) annotation).value();
             }
         });
-        annotationConverters.put("maxlength", new AnnotationConverter() {
+        annotationConverters.put("Maxlength", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
-                return ((maxlength) annotation).value();
+                return ((Maxlength) annotation).value();
             }
         });
-        annotationConverters.put("minlength", new AnnotationConverter() {
+        annotationConverters.put("Minlength", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
-                return ((minlength) annotation).value();
+                return ((Minlength) annotation).value();
             }
         });
-        annotationConverters.put("range", new AnnotationConverter() {
+        annotationConverters.put("Range", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
-                return ((range) annotation).value();
+                return ((Range) annotation).value();
             }
         });
-        annotationConverters.put("rangelenght", new AnnotationConverter() {
+        annotationConverters.put("Rangelenght", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
-                return ((rangelength) annotation).value();
+                return ((Rangelength) annotation).value();
             }
         });
 
@@ -89,7 +88,7 @@ public class Converter {
         annotationConverters.put("Range", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
-                Range length = ((Range) annotation);
+                org.hibernate.validator.constraints.Range length = ((org.hibernate.validator.constraints.Range) annotation);
                 return String.format("[%s, %s]", length.min(), length.max());
             }
         });
@@ -125,7 +124,7 @@ public class Converter {
 
     private boolean doClass(Class inClass, Locale locale, Map<Object, Map> rules, Map<String, Map> messages, String parent) {
         boolean flag = false;
-        for (Annotation annotation : inClass.getDeclaredAnnotations()) {
+        for (Annotation annotation : inClass.getAnnotations()) {
             if (annotation instanceof Validatable) {
                 flag = true;
                 break;

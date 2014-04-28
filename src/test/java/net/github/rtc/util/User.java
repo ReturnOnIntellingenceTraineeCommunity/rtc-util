@@ -1,25 +1,25 @@
-package org.util.util.entity;
+package net.github.rtc.util;
 
 
 import net.github.rtc.util.annotation.*;
+import net.github.rtc.util.annotation.Number;
 
-import java.util.Date;
 import java.util.List;
 
 
-public class User implements IUser {
-    @min(3)
-    @max(45)
+public class User {
+    @Min(3)
+    @Max(45)
     private String fio;
-    @number
+    @Number
     private String phone;
-    @email
-    @minlength(5)
-    @maxlength(123)
+    @Email
+    @Minlength(5)
+    @Maxlength(123)
     private String email;
-    @date
-    private Date birthDate;
-    @range({2,5})
+    @Date
+    private java.util.Date birthDate;
+    @Range({2,5})
     private String city;
     private String university;
     private String faculty;
@@ -28,15 +28,11 @@ public class User implements IUser {
     private Integer writtenEng;
     private Integer oralEng;
     private String note;
-    private Hello hello;
-    @min(1)
+    @Min(1)
     private String password;
     public String getName() {
         return null;
     }
 
-    @Override
-    public int getAge() {
-        return 0;
-    }
+
 }

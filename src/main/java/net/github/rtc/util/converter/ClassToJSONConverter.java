@@ -1,9 +1,7 @@
-package net.github.rtc.util.ClassToJSONConverter;
+package net.github.rtc.util.converter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import net.github.rtc.util.context.Context;
-import net.github.rtc.util.converter.Converter;
 
 import java.io.IOException;
 import java.io.Serializable;

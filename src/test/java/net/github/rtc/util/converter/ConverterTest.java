@@ -3,7 +3,7 @@ package net.github.rtc.util.converter;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.util.util.entity.User;
+import net.github.rtc.util.User;
 
 import java.util.Locale;
 

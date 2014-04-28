@@ -1,4 +1,4 @@
-package org.util.util.entity;
+package net.github.rtc.util;
 
 
 public interface IUser {

@@ -2,8 +2,9 @@ package net.github.rtc.util.context;
 
 
 import junit.framework.Assert;
+import net.github.rtc.util.converter.Context;
 import org.junit.Test;
-import org.util.util.entity.User;
+import net.github.rtc.util.User;
 
 import java.util.HashMap;
 import java.util.Map;

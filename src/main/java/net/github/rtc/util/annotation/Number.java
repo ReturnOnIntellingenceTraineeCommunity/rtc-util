@@ -2,5 +2,5 @@ package net.github.rtc.util.annotation;
 
 @java.lang.annotation.Target(java.lang.annotation.ElementType.FIELD)
 @java.lang.annotation.Retention(java.lang.annotation.RetentionPolicy.RUNTIME)
-public @interface remote {
+public @interface Number {
 }

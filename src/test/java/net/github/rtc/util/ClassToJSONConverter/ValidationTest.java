@@ -1,10 +1,12 @@
 package net.github.rtc.util.ClassToJSONConverter;
 
+import net.github.rtc.util.User;
+import net.github.rtc.util.converter.ClassToJSONConverter;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.util.util.entity.Person;
 
+import java.text.Annotation;
 import java.util.Locale;
 
 
@@ -13,7 +15,8 @@ public class ValidationTest {
     public void testMakeValidationsFromPackages() throws Exception {
         ApplicationContext context = new ClassPathXmlApplicationContext("/spring-config.xml");
         ClassToJSONConverter validation = (ClassToJSONConverter)context.getBean("classToJSONConverter");
-        validation.fromClassToJSON(Person.class, Locale.ENGLISH);
-        System.out.println(validation.getJSON(Person.class));
+        java.lang.annotation.Annotation[] a = User.class.getAnnotations();
+        validation.fromClassToJSON(User.class, Locale.ENGLISH);
+        System.out.println(validation.getJSON(User.class));
     }
 }
