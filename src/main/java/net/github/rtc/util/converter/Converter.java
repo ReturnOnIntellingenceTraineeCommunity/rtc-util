@@ -30,17 +30,7 @@ public class Converter {
 
     private static final Map<String, AnnotationConverter> annotationConverters = new HashMap<String, AnnotationConverter>();
 
-    private static final Map<String, String> ALIAS = new HashMap<String, String>();
-
     static {
-        ALIAS.put("NotEmpty", "Required");
-        ALIAS.put("CreditCardNumber", "Creditcard");
-        ALIAS.put("Email", "Email");
-        ALIAS.put("Length", "Rangelength");
-        ALIAS.put("NotBlank", "Required");
-        ALIAS.put("Range", "Range");
-        ALIAS.put("URL", "Url");
-
         annotationConverters.put("Min", new AnnotationConverter() {
             @Override
             public Object convert(Annotation annotation) {
@@ -94,15 +84,7 @@ public class Converter {
         });
     }
 
-    @Autowired
-    private MessageSource messageSource;
-
-    private String getRealNameAnnotation(Annotation annotation) {
-        String name = annotation.annotationType().getSimpleName();
-        return (ALIAS.containsKey(name)) ? ALIAS.get(name) : name;
-    }
-
-    private Object getValueAnnotation(Annotation annotation) { //get value of anotation
+    private Object getValueAnnotation(Annotation annotation) {
         Object obj;
         String nameAnnotation = annotation.annotationType().getSimpleName();
         if (annotationConverters.containsKey(nameAnnotation)) {
@@ -114,12 +96,8 @@ public class Converter {
     }
 
 
-    private String getMessageAnnotation(Annotation annotation, Locale locale) {
-        String name = getRealNameAnnotation(annotation);
-        if (annotationConverters.containsKey(name)) {
-            return eMessageSource.getMessage(name, null, locale) + " " + getValueAnnotation(annotation);
-        }
-        return eMessageSource.getMessage(name, null, locale);
+    private String getErrorMessage(String annotationName, Locale locale) {
+        return eMessageSource.getMessage(annotationName, null, locale);
     }
 
     private boolean doClass(Class inClass, Locale locale, Map<Object, Map> rules, Map<String, Map> messages, String parent) {
@@ -136,11 +114,11 @@ public class Converter {
                 if (doClass(field.getType(), locale, rules, messages, fieldName)) {
                     Map<String, Object> validationField = new HashMap<String, Object>();
                     Map<String, String> messageField = new HashMap<String, String>();
-                    for (Annotation annotation : field.getDeclaredAnnotations()) {                        //get information about annotation
-                        String annotationName = getRealNameAnnotation(annotation);
-                        validationField.put(annotationName, getValueAnnotation(annotation));    //information about 1 annotation
-                        messageField.put(annotationName, getMessageAnnotation(annotation, locale));
-                        rules.put(fieldName, validationField);                                    //all anotation of 1 field
+                    for (Annotation annotation : field.getDeclaredAnnotations()) {
+                        String annotationName = annotation.annotationType().getName();
+                        validationField.put(annotationName, getValueAnnotation(annotation));
+                        messageField.put(annotationName, getErrorMessage(annotationName, locale));
+                        rules.put(fieldName, validationField);
                         messages.put(fieldName, messageField);
                     }
                 }

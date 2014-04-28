@@ -6,7 +6,7 @@ import net.github.rtc.util.annotation.Number;
 
 import java.util.List;
 
-
+@Validatable
 public class User {
     @Min(3)
     @Max(45)
