@@ -1,4 +1,4 @@
-package net.github.rtc.util;
+package net.github.rtc.util.entities;
 
 
 import net.github.rtc.util.annotation.*;

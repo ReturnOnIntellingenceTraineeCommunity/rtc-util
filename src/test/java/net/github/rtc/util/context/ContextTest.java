@@ -4,7 +4,7 @@ package net.github.rtc.util.context;
 import junit.framework.Assert;
 import net.github.rtc.util.converter.Context;
 import org.junit.Test;
-import net.github.rtc.util.User;
+import net.github.rtc.util.entities.User;
 
 import java.util.HashMap;
 import java.util.Map;

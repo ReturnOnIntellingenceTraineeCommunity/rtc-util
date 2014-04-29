@@ -1,18 +1,20 @@
 package net.github.rtc.util.converter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import net.github.rtc.util.annotation.*;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
-import net.github.rtc.util.annotation.*;
 
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 
 /**
  * Class that converts another class that marked
@@ -100,34 +102,6 @@ public class Converter {
         return eMessageSource.getMessage(annotationName, null, locale);
     }
 
-    private boolean doClass(Class inClass, Locale locale, Map<Object, Map> rules, Map<String, Map> messages, String parent) {
-        boolean flag = false;
-        for (Annotation annotation : inClass.getAnnotations()) {
-            if (annotation instanceof Validatable) {
-                flag = true;
-                break;
-            }
-        }
-        if (flag) {
-            for (Field field : inClass.getDeclaredFields()) {
-                String fieldName = (parent.equals("")) ? field.getName() : String.format("%s.%s", parent, field.getName());
-                if (doClass(field.getType(), locale, rules, messages, fieldName)) {
-                    Map<String, Object> validationField = new HashMap<String, Object>();
-                    Map<String, String> messageField = new HashMap<String, String>();
-                    for (Annotation annotation : field.getDeclaredAnnotations()) {
-                        String annotationName = annotation.annotationType().getName();
-                        validationField.put(annotationName, getValueAnnotation(annotation));
-                        messageField.put(annotationName, getErrorMessage(annotationName, locale));
-                        rules.put(fieldName, validationField);
-                        messages.put(fieldName, messageField);
-                    }
-                }
-            }
-            return false;
-        }
-        return true;
-    }
-
     /**
      * Convert class to JSON
      * @param inClass what class&
@@ -135,14 +109,27 @@ public class Converter {
      * @return JSON for JQuery validate
      * @throws IOException
      */
-    public String toJSON(Class inClass, Locale locale) throws IOException {
+    public String toJSON(Class<?> inClass, Locale locale) throws IOException {
 
         Map<String, Map> validationMap = new HashMap<String, Map>(); //the major map
-        Map<Object, Map> rules = new HashMap<Object, Map>();   //information from annotation
-        Map<String, Map> messages = new HashMap<String, Map>();//error messages
-        doClass(inClass, locale, rules, messages, "");
-        validationMap.put("messages", messages);
-        validationMap.put("rules", rules);
+
+        Map<Object, Map> fieldRules = new HashMap<Object, Map>();   //information from annotation
+        Map<String, Map> fieldMessages = new HashMap<String, Map>();//error messages
+        Map<String, List<Annotation>> inClassFields = AnnotatedFieldScanner.scan(inClass, "");
+        for(String field : inClassFields.keySet()) {
+            Map<String, Object> rule = new HashMap<String, Object>();
+            Map<String, String> message = new HashMap<String, String>();
+            for(Annotation annotation : inClassFields.get(field)) {
+                String annotationName = annotation.annotationType().getName();
+                rule.put(annotationName, getValueAnnotation(annotation));
+                message.put(annotationName, getErrorMessage(annotationName, locale));
+            }
+            fieldRules.put(field, rule);
+            fieldMessages.put(field, message);
+        }
+
+        validationMap.put("messages", fieldMessages);
+        validationMap.put("rules", fieldRules);
 
 
         //transform map to Json
