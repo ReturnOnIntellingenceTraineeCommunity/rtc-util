@@ -1,23 +1,29 @@
 package net.github.rtc.util.context;
 
 
-import junit.framework.Assert;
-import net.github.rtc.util.converter.ValidationContext;
+import net.github.rtc.util.converter.Converter;
+import net.github.rtc.util.entities.TestClass;
 import org.junit.Ignore;
 import org.junit.Test;
-import net.github.rtc.util.entities.User;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.io.IOException;
+import java.util.Locale;
 
 @Ignore
 public class ValidationContextTest {
     @Test
     public void testContext(){
-        Map<Class, String> map = new HashMap<Class, String>();
-        map.put(User.class, "first_value");
-        ValidationContext context = new ValidationContext();
-        context.add(User.class);
-        Assert.assertTrue(map.get(User.class).equals(context.get(User.class)));
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-config.xml");
+        Converter converter = (Converter)ctx.getBean("converter");
+        String json = null;
+        try {
+            json = converter.toJSON(TestClass.class, Locale.ENGLISH);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
 }

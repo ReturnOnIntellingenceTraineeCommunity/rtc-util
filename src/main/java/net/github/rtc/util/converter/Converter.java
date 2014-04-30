@@ -3,6 +3,7 @@ package net.github.rtc.util.converter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import net.github.rtc.util.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +24,9 @@ import java.util.Map;
 public class Converter {
 
     @Autowired
+    @Qualifier("eMessageSource")
     private MessageSource eMessageSource;
+
     @Autowired AnnotatedFieldScanner scanner;
 
     private interface AnnotationConverter {
@@ -105,7 +108,7 @@ public class Converter {
             Map<String, Object> rule = new HashMap<String, Object>();
             Map<String, String> message = new HashMap<String, String>();
             for(Annotation annotation : inClassFields.get(field)) {
-                String annotationName = annotation.annotationType().getName();
+                String annotationName = annotation.annotationType().getSimpleName().toLowerCase();
                 rule.put(annotationName, getValueAnnotation(annotation));
                 message.put(annotationName, getErrorMessage(annotationName, locale));
             }

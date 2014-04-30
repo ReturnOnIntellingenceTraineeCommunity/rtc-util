@@ -28,8 +28,7 @@ public class AnnotatedFieldScanner {
                     }
                 }
                 if(!fieldAnnotations.isEmpty()){
-                    String fieldName = inClass.getSimpleName().toLowerCase()+".";
-                    fieldName += (parent.equals("")) ?
+                    String fieldName = (parent.equals("")) ?
                             field.getName() : String.format("%s.%s", parent, field.getName());
 
                     fields.put(fieldName, fieldAnnotations);

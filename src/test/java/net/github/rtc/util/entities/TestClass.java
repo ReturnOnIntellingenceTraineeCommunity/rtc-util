@@ -1,9 +1,7 @@
 package net.github.rtc.util.entities;
 
-import net.github.rtc.util.annotation.Maxlength;
-import net.github.rtc.util.annotation.Minlength;
+import net.github.rtc.util.annotation.*;
 import net.github.rtc.util.annotation.Number;
-import net.github.rtc.util.annotation.Validatable;
 
 /**
  * Created by ivan on 30.04.14.
@@ -15,4 +13,6 @@ public class TestClass {
     private String login;
     @Number
     private int  id;
+    @Required
+    User u;
 }
