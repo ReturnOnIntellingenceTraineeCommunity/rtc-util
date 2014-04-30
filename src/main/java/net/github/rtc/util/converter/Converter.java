@@ -25,6 +25,7 @@ public class Converter {
 
     @Autowired
     private MessageSource eMessageSource;
+    @Autowired AnnotatedFieldScanner scanner;
 
     private interface AnnotationConverter {
         Object convert(Annotation annotation);
@@ -115,7 +116,7 @@ public class Converter {
 
         Map<Object, Map> fieldRules = new HashMap<Object, Map>();   //information from annotation
         Map<String, Map> fieldMessages = new HashMap<String, Map>();//error messages
-        Map<String, List<Annotation>> inClassFields = AnnotatedFieldScanner.scan(inClass, "");
+        Map<String, List<Annotation>> inClassFields = scanner.scan(inClass, "");
         for(String field : inClassFields.keySet()) {
             Map<String, Object> rule = new HashMap<String, Object>();
             Map<String, String> message = new HashMap<String, String>();
