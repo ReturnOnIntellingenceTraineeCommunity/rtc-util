@@ -24,6 +24,12 @@ public class ValidationContext implements Serializable{
 
     private Map<Class, String> map = new HashMap<Class, String>();
 
+    public ValidationContext(){}
+
+    public ValidationContext(String packagePath){
+        addPackage(packagePath);
+    }
+
     public void add(Class inClass){
         try {
             String validationJSON = converter.toJSON(inClass, Locale.ENGLISH);

@@ -2,7 +2,6 @@ package net.github.rtc.util.converter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import net.github.rtc.util.annotation.*;
-import org.hibernate.validator.constraints.Length;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
@@ -68,21 +67,6 @@ public class Converter {
             @Override
             public Object convert(Annotation annotation) {
                 return ((Rangelength) annotation).value();
-            }
-        });
-
-        annotationConverters.put("Length", new AnnotationConverter() {
-            @Override
-            public Object convert(Annotation annotation) {
-                Length length = ((Length) annotation);
-                return String.format("[%s, %s]", length.min(), length.max());
-            }
-        });
-        annotationConverters.put("Range", new AnnotationConverter() {
-            @Override
-            public Object convert(Annotation annotation) {
-                org.hibernate.validator.constraints.Range length = ((org.hibernate.validator.constraints.Range) annotation);
-                return String.format("[%s, %s]", length.min(), length.max());
             }
         });
     }

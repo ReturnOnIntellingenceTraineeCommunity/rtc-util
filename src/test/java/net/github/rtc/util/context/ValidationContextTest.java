@@ -3,12 +3,14 @@ package net.github.rtc.util.context;
 
 import junit.framework.Assert;
 import net.github.rtc.util.converter.ValidationContext;
+import org.junit.Ignore;
 import org.junit.Test;
 import net.github.rtc.util.entities.User;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Ignore
 public class ValidationContextTest {
     @Test
     public void testContext(){
