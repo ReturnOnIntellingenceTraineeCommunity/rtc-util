@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>rtc-util</groupId>
+  <groupId>rtcCommunity</groupId>
   <artifactId>rtc-util</artifactId>
   <versioning>
     <release>1.0-RELEASE</release>
     <versions>
       <version>1.0-RELEASE</version>
     </versions>
-    <lastUpdated>20140430162223</lastUpdated>
+    <lastUpdated>20140430171146</lastUpdated>
   </versioning>
 </metadata>
