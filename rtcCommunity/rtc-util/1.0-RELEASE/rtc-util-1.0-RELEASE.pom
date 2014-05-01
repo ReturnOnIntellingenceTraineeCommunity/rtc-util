@@ -4,6 +4,7 @@
   <groupId>rtcCommunity</groupId>
   <artifactId>rtc-util</artifactId>
   <version>1.0-RELEASE</version>
+    <packaging>jar</packaging>
 
     <properties>
         <spring.version>3.2.0.RELEASE</spring.version>
