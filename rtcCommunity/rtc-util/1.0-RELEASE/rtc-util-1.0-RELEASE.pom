@@ -15,7 +15,7 @@
         <repository>
             <id>internal.repo</id>
             <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/releases</url>
+            <url>https://raw.github.com/ReturnOnIntellingenceTraineeCommunity/rtc-util/releases/</url>
         </repository>
     </distributionManagement>
 
