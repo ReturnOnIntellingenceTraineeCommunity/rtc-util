@@ -26,10 +26,9 @@ public class ValidationContext implements Serializable{
 
     public ValidationContext(){}
 
-    public ValidationContext(String packagePath){
-        if(converter == null){
-            converter = new Converter();
-        }
+    @Autowired
+    public ValidationContext(Converter converter, String packagePath){
+        this.converter = converter;
         addPackage(packagePath);
     }
 
