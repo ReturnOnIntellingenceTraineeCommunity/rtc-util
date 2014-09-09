@@ -1,6 +1,6 @@
 package net.github.rtc.util.converter;
 
-import net.github.rtc.util.annotation.Validatable;
+import net.github.rtc.util.annotation.validation.Validatable;
 import org.reflections.Reflections;
 import org.springframework.stereotype.Component;
 
@@ -13,15 +13,15 @@ import java.util.*;
  */
 @Component
 public class AnnotatedFieldScanner {
-    private Reflections reflections = new Reflections("net.github.rtc.util.annotation");
+    private Reflections reflections = new Reflections("net.github.rtc.util.annotation.validation");
     private Set<Class<? extends Annotation>> validationAnnotations = reflections.getSubTypesOf(Annotation.class);
 
     public Map<String, List<Annotation>> scan(Class inClass, String parent) {
-        Map<String, List<Annotation>> fields = new HashMap<String, List<Annotation>>();
+        Map<String, List<Annotation>> fields = new HashMap<>();
 
         if(inClass.isAnnotationPresent(Validatable.class)){
             for (Field field : inClass.getDeclaredFields()) {
-                List<Annotation> fieldAnnotations = new ArrayList<Annotation>();
+                List<Annotation> fieldAnnotations = new ArrayList<>();
                 for(Annotation annotation : field.getAnnotations()){
                     if(validationAnnotations.contains(annotation.annotationType())){
                         fieldAnnotations.add(annotation);

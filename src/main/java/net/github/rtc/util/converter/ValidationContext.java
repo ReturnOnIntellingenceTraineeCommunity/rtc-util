@@ -1,7 +1,7 @@
 package net.github.rtc.util.converter;
 
 
-import net.github.rtc.util.annotation.Validatable;
+import net.github.rtc.util.annotation.validation.Validatable;
 import org.reflections.Reflections;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

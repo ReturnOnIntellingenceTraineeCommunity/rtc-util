@@ -1,4 +1,4 @@
-package net.github.rtc.util.annotation;
+package net.github.rtc.util.annotation.validation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

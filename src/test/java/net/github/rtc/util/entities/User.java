@@ -1,8 +1,8 @@
 package net.github.rtc.util.entities;
 
 
-import net.github.rtc.util.annotation.*;
-import net.github.rtc.util.annotation.Number;
+import net.github.rtc.util.annotation.validation.*;
+import net.github.rtc.util.annotation.validation.Number;
 
 import java.util.List;
 

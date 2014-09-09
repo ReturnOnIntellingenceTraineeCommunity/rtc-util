@@ -1,7 +1,7 @@
 package net.github.rtc.util.entities;
 
-import net.github.rtc.util.annotation.*;
-import net.github.rtc.util.annotation.Number;
+import net.github.rtc.util.annotation.validation.*;
+import net.github.rtc.util.annotation.validation.Number;
 
 /**
  * Created by ivan on 30.04.14.

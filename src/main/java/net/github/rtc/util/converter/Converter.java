@@ -1,7 +1,7 @@
 package net.github.rtc.util.converter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import net.github.rtc.util.annotation.*;
+import net.github.rtc.util.annotation.validation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.MessageSource;
@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.lang.annotation.Annotation;
+import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -86,8 +87,9 @@ public class Converter {
     }
 
 
-    private String getErrorMessage(String annotationName, Locale locale) {
-        return eMessageSource.getMessage(annotationName, null, locale);
+    private String getErrorMessage(String annotationName, Locale locale, Object value) {
+        return MessageFormat.format(
+                eMessageSource.getMessage(annotationName, null, locale), value);
     }
 
     /**
@@ -99,18 +101,18 @@ public class Converter {
      */
     public String toJSON(Class<?> inClass, Locale locale) throws IOException {
 
-        Map<String, Map> validationMap = new HashMap<String, Map>(); //the major map
+        Map<String, Map> validationMap = new HashMap<>(); //the major map
 
-        Map<Object, Map> fieldRules = new HashMap<Object, Map>();   //information from annotation
-        Map<String, Map> fieldMessages = new HashMap<String, Map>();//error messages
+        Map<Object, Map> fieldRules = new HashMap<>();   //information from annotation
+        Map<String, Map> fieldMessages = new HashMap<>();//error messages
         Map<String, List<Annotation>> inClassFields = scanner.scan(inClass, "");
         for(String field : inClassFields.keySet()) {
-            Map<String, Object> rule = new HashMap<String, Object>();
-            Map<String, String> message = new HashMap<String, String>();
+            Map<String, Object> rule = new HashMap<>();
+            Map<String, String> message = new HashMap<>();
             for(Annotation annotation : inClassFields.get(field)) {
                 String annotationName = annotation.annotationType().getSimpleName().toLowerCase();
                 rule.put(annotationName, getValueAnnotation(annotation));
-                message.put(annotationName, getErrorMessage(annotationName, locale));
+                message.put(annotationName, getErrorMessage(annotationName, locale, getValueAnnotation(annotation)));
             }
             fieldRules.put(field, rule);
             fieldMessages.put(field, message);
