@@ -73,6 +73,12 @@ public class Converter {
                 return ((Rangelength) annotation).value();
             }
         });
+        annotationConverters.put("Pattern", new AnnotationConverter() {
+            @Override
+            public Object convert(Annotation annotation) {
+                return ((Pattern) annotation).value();
+            }
+        });
     }
 
     private Object getValueAnnotation(Annotation annotation) {
@@ -88,8 +94,12 @@ public class Converter {
 
 
     private String getErrorMessage(String annotationName, Locale locale, Object value) {
-        return MessageFormat.format(
-                eMessageSource.getMessage(annotationName, null, locale), value);
+        if("pattern".equals(annotationName)) {
+            return MessageFormat.format(eMessageSource.getMessage(annotationName + "." + value, null, locale), value);
+        } else {
+            return MessageFormat.format(eMessageSource.getMessage(annotationName, null, locale), value);
+        }
+
     }
 
     /**
@@ -116,6 +126,7 @@ public class Converter {
             }
             fieldRules.put(field, rule);
             fieldMessages.put(field, message);
+
         }
 
         validationMap.put("messages", fieldMessages);
