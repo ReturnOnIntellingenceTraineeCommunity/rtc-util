@@ -28,7 +28,8 @@ public class Converter {
     @Qualifier("eMessageSource")
     private MessageSource eMessageSource;
 
-    @Autowired AnnotatedFieldScanner scanner;
+    @Autowired
+    AnnotatedFieldScanner scanner;
 
     private interface AnnotationConverter {
         Object convert(Annotation annotation);
@@ -94,18 +95,14 @@ public class Converter {
 
 
     private String getErrorMessage(String annotationName, Locale locale, Object value) {
-        if("pattern".equals(annotationName)) {
-            return MessageFormat.format(eMessageSource.getMessage(annotationName + "." + value, null, locale), value);
-        } else {
-            return MessageFormat.format(eMessageSource.getMessage(annotationName, null, locale), value);
-        }
-
+        return eMessageSource.getMessage(annotationName, new Object[]{value}, locale);
     }
 
     /**
      * Convert class to JSON
+     *
      * @param inClass what class&
-     * @param locale locale of messages for JQuery validate
+     * @param locale  locale of messages for JQuery validate
      * @return JSON for JQuery validate
      * @throws IOException
      */
@@ -116,10 +113,10 @@ public class Converter {
         Map<Object, Map> fieldRules = new HashMap<>();   //information from annotation
         Map<String, Map> fieldMessages = new HashMap<>();//error messages
         Map<String, List<Annotation>> inClassFields = scanner.scan(inClass, "");
-        for(String field : inClassFields.keySet()) {
+        for (String field : inClassFields.keySet()) {
             Map<String, Object> rule = new HashMap<>();
             Map<String, String> message = new HashMap<>();
-            for(Annotation annotation : inClassFields.get(field)) {
+            for (Annotation annotation : inClassFields.get(field)) {
                 String annotationName = annotation.annotationType().getSimpleName().toLowerCase();
                 rule.put(annotationName, getValueAnnotation(annotation));
                 message.put(annotationName, getErrorMessage(annotationName, locale, getValueAnnotation(annotation)));
