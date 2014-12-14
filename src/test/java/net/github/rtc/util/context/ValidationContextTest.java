@@ -1,39 +1,50 @@
 package net.github.rtc.util.context;
 
-
-import net.github.rtc.util.converter.Converter;
+import junit.framework.Assert;
+import net.github.rtc.util.annotation.validation.Validatable;
 import net.github.rtc.util.converter.ValidationContext;
 import net.github.rtc.util.entities.TestClass;
-import net.github.rtc.util.entities.User;
-import org.junit.Ignore;
+import net.github.rtc.util.user.User;
+import org.hibernate.validator.constraints.NotEmpty;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.io.IOException;
-import java.util.Locale;
 
-@Ignore
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = "classpath:spring-test.xml")
 public class ValidationContextTest {
+    @Autowired
+    private ValidationContext validationContext;
+
+    final String expectedRule = "\"rules\":{\"text\":{\"maxlength\":255},\"email\":{\"email\":true}," +
+      "\"digitsStr\":{\"pattern\":\"[0-9]\"},\"email2\":{\"email\":true,\"required\":true}}," +
+      "\"messages\":{\"text\":{\"maxlength\":\"Please enter no more than 255 symbols\"}," +
+      "\"email\":{\"email\":\"bla bla\"},\"digitsStr\":{\"pattern\":\"Please use pattern [0-9]\"}," +
+      "\"email2\":{\"email\":\"Please enter a valid email address.\",\"required\":\"This field is required.\"}},";
+
     @Test
-    public void testContext(){
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-config.xml");
-        Converter converter = (Converter)ctx.getBean("converter");
-        String json = null;
-        try {
-            json = converter.toJSON(TestClass.class, Locale.ENGLISH);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void testGet(){
+        Assert.assertEquals(expectedRule, validationContext.get(TestClass.class));
     }
 
-        @Test
-        public void addPackages(){
-            ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-config.xml");
-            ValidationContext context= (ValidationContext)ctx.getBean("validationContext");
-            String json = null;
-            context.addPackage("net.github.rtc.util.entities");
-            json = context.get(User.class);
+    @Test
+    public void testAddPackage(){
+        validationContext.addPackage("net.github.rtc.util.user");
+        Assert.assertNotNull(validationContext.get(User.class));
+    }
 
+    @Test
+    public void testAdd(){
+        validationContext.add(FastClass.class);
+        Assert.assertNotNull(validationContext.get(FastClass.class));
+    }
+
+    @Validatable
+    private class FastClass{
+        @NotEmpty
+        private String test;
     }
 }

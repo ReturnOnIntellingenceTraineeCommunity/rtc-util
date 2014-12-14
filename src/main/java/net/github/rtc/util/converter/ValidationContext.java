@@ -22,11 +22,11 @@ public class ValidationContext implements Serializable{
     @Autowired
     Converter converter;
 
-    private Map<Class, String> map = new HashMap<Class, String>();
+    private Map<Class, String> map = new HashMap<>();
 
     public ValidationContext(){}
 
-    @Autowired
+
     public ValidationContext(Converter converter, String packagePath){
         this.converter = converter;
         addPackage(packagePath);

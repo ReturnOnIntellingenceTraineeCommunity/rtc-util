@@ -2,19 +2,25 @@ package net.github.rtc.util.converter;
 
 import net.github.rtc.util.annotation.validation.Validatable;
 import org.reflections.Reflections;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.*;
 
-/**
- * Created by ivan on 28.04.14.
- */
+
 @Component
-public class AnnotatedFieldScanner {
-    private Reflections reflections = new Reflections("net.github.rtc.util.annotation.validation");
-    private Set<Class<? extends Annotation>> validationAnnotations = reflections.getSubTypesOf(Annotation.class);
+public class AnnotatedFieldScanner implements InitializingBean{
+    private Reflections hibernateAnnotations = new Reflections("org.hibernate.validator.constraints");
+    private Reflections javaxConstrains = new Reflections("javax.validation.constraints");
+    private Set<Class<? extends Annotation>> validationAnnotations = new HashSet<>();
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        validationAnnotations.addAll(hibernateAnnotations.getSubTypesOf(Annotation.class));
+        validationAnnotations.addAll(javaxConstrains.getSubTypesOf(Annotation.class));
+    }
 
     public Map<String, List<Annotation>> scan(Class inClass, String parent) {
         Map<String, List<Annotation>> fields = new HashMap<>();
@@ -40,4 +46,6 @@ public class AnnotatedFieldScanner {
         }
         return null;
     }
+
+
 }
