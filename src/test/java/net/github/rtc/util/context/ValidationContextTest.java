@@ -19,11 +19,12 @@ public class ValidationContextTest {
     @Autowired
     private ValidationContext validationContext;
 
-    final String expectedRule = "\"rules\":{\"text\":{\"maxlength\":255},\"email\":{\"email\":true}," +
-      "\"digitsStr\":{\"pattern\":\"[0-9]\"},\"email2\":{\"email\":true,\"required\":true}}," +
-      "\"messages\":{\"text\":{\"maxlength\":\"Please enter no more than 255 symbols\"}," +
-      "\"email\":{\"email\":\"bla bla\"},\"digitsStr\":{\"pattern\":\"Please use pattern [0-9]\"}," +
-      "\"email2\":{\"email\":\"Please enter a valid email address.\",\"required\":\"This field is required.\"}},";
+    final String expectedRule = "\"rules\":{\"id\":{\"number\":true},\"text\":{\"maxlength\":255}," +
+      "\"email\":{\"email\":true},\"digitsStr\":{\"pattern\":\"[0-9]\"},\"email2\":{\"email\":true," +
+      "\"required\":true}},\"messages\":{\"id\":{\"number\":\"Please enter a valid number.\"}," +
+      "\"text\":{\"maxlength\":\"Please enter no more than 255 symbols\"},\"email\":{\"email\":\"bla bla\"}," +
+      "\"digitsStr\":{\"pattern\":\"Please use pattern [0-9]\"},\"email2\":{\"email\":\"Please enter a valid email " +
+      "address.\",\"required\":\"This field is required.\"}},";
 
     @Test
     public void testGet(){
