@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
+//building rules and messages json for jquery validate
 @Component
 public class ValidationRuleFactory implements InitializingBean {
 
@@ -118,6 +119,7 @@ public class ValidationRuleFactory implements InitializingBean {
         return defaultErrorMessage;
     }
 
+    //actually extending rules and messages map
     public void addRuleFromAnnotation(Map<String, Object> rules,  Map<String, String> messages,
       Annotation annotation) {
         if(annotationConverters.containsKey(annotation.annotationType())){

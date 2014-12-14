@@ -12,6 +12,7 @@ import java.lang.annotation.Annotation;
 import java.util.HashMap;
 import java.util.Map;
 
+//mapping from java validation annotations to jquery validation properties
 @Component
 public class ValidationNamesHolder implements InitializingBean {
 

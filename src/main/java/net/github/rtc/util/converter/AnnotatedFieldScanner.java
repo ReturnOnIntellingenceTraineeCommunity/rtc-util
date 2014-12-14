@@ -1,6 +1,6 @@
 package net.github.rtc.util.converter;
 
-import net.github.rtc.util.annotation.validation.Validatable;
+import net.github.rtc.util.annotation.validation.*;
 import org.reflections.Reflections;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
@@ -10,6 +10,7 @@ import java.lang.reflect.Field;
 import java.util.*;
 
 
+//Scan class for validation annotations
 @Component
 public class AnnotatedFieldScanner implements InitializingBean{
     private Reflections hibernateAnnotations = new Reflections("org.hibernate.validator.constraints");
@@ -20,8 +21,10 @@ public class AnnotatedFieldScanner implements InitializingBean{
     public void afterPropertiesSet() throws Exception {
         validationAnnotations.addAll(hibernateAnnotations.getSubTypesOf(Annotation.class));
         validationAnnotations.addAll(javaxConstrains.getSubTypesOf(Annotation.class));
+        validationAnnotations.add(net.github.rtc.util.annotation.validation.Number.class);
     }
 
+    //return map with field names and it's annotations
     public Map<String, List<Annotation>> scan(Class inClass, String parent) {
         Map<String, List<Annotation>> fields = new HashMap<>();
 
